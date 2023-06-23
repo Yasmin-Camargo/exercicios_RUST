@@ -7,7 +7,7 @@ fn main() {
     
     for _i in 0..10{
         vet.push(0);
-        let num: i32 = rng.gen_range(0..10);
+        let num: i32 = rng.gen_range(0..100);
         vet[_i] = num
     }
     println!("{:?}", vet);
